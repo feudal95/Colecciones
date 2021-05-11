@@ -1,4 +1,4 @@
-/*
+           /*
 * To change this license header, choose License Headers in Project Properties.
 * To change this template file, choose Tools | Templates
 * and open the template in the editor.
@@ -30,9 +30,9 @@ public class Libro {
         
         if(obj instanceof Libro) {
             
-            Libro otro =(Libro)obj;
+           // Libro otro =(Libro)obj;
             
-            if(this.ISBN==otro.ISBN){
+            if(this.ISBN==((Libro) obj).ISBN){
                 
                 return true;
                 
@@ -74,7 +74,7 @@ public class Libro {
         return true;
     }
     
-    
+ 
     
     
     

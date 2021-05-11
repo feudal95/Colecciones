@@ -7,15 +7,8 @@ package colecciones;
 
 /**
  *
- * @author diego
+ * @author Mac
  */
-public class Colecciones {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+class Arituculo {
     
 }
